@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Cataloge</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__content container">
+        <div class="header__menu menu">
+            <div class="menu__icon icon-menu">
+                <div class="burger-brick"></div>
+                <div class="burger-brick middle"></div>
+                <div class="burger-brick"></div>
+            </div>
+            <a href="#"><picture><source srcset="img/LOGO.webp" type="image/webp"><img src="img/LOGO.png" alt="logo" width="74" height="19"></picture></a>
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li>
+                        <a class="menu__link" href="#">Женщинам</a>
+                        <ul class="menu__sub-list">
+                            <li class="menu__sub-link">
+                                <a href="#">Одежда</a>
+                                <span class="menu__arrow arrow right"></span>
+                                <ul class="menu__sub2-list">
+                                    <h2 class="menu__sub2-title title">Женская одежда</h2>
+                                    <a class="menu__sub2-back" href="#">
+                                        <span class="menu__arrow arrow left"></span>
+                                        назад
+                                    </a>
+                                    <li class="menu__sub2-link"><a href="#">Платья и сарафаны</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Брюки</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Джемперы и кардиганы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Одежда для дома и сна</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Верхняя одежда</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Блузы и туники</a></li>
+
+                                    <li class="menu__sub2-link"><a href="#">Юбки</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Топы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Джинсы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Белье</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Пиджаки и костюмы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Пляжная одежда</a></li>
+
+                                    <li class="menu__sub2-link"><a href="#">Шорты</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Рубашки</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Комбинезоны</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Большие размеры</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Майки</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Бриджи и капри</a></li>
+
+                                    <li class="menu__sub2-link"><a href="#">Спортивные костюмы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Пиджаки и костюмы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Жилеты</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Толстовки и свитшоты</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Футболки и поло</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Обувь</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Аксессуары</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Спорт</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Бренды</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Красота</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Распродажа</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="menu__link">Мужчинам</a>
+                        <ul class="menu__sub-list">
+                            <li class="menu__sub-link">
+                                <a href="#">Одежда</a>
+                                <span class="menu__arrow arrow right"></span>
+                                <ul class="menu__sub2-list">
+                                    <h2 class="menu__sub2-title title">Мужская одежда</h2>
+                                    <a class="menu__sub2-back" href="#">
+                                        <span class="menu__arrow arrow left"></span>
+                                        назад
+                                    </a>
+                                    <li class="menu__sub2-link"><a href="#">Платья и сарафаны</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Брюки</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Джемперы и кардиганы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Одежда для дома и сна</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Верхняя одежда</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Блузы и туники</a></li>
+
+                                    <li class="menu__sub2-link"><a href="#">Юбки</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Топы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Джинсы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Белье</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Пиджаки и костюмы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Пляжная одежда</a></li>
+
+                                    <li class="menu__sub2-link"><a href="#">Шорты</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Рубашки</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Комбинезоны</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Большие размеры</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Майки</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Бриджи и капри</a></li>
+
+                                    <li class="menu__sub2-link"><a href="#">Спортивные костюмы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Пиджаки и костюмы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Жилеты</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Толстовки и свитшоты</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Футболки и поло</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Обувь</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Аксессуары</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Спорт</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Бренды</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Красота</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Распродажа</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="menu__link">Детям</a>
+                        <ul class="menu__sub-list">
+                            <li class="menu__sub-link">
+                                <a href="#">Одежда</a>
+                                <span class="menu__arrow arrow right"></span>
+                                <ul class="menu__sub2-list">
+                                    <h2 class="menu__sub2-title title">Детская одежда</h2>
+                                    <a class="menu__sub2-back" href="#">
+                                        <span class="menu__arrow arrow left"></span>
+                                        назад
+                                    </a>
+                                    <li class="menu__sub2-link"><a href="#">Платья и сарафаны</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Брюки</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Джемперы и кардиганы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Одежда для дома и сна</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Верхняя одежда</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Блузы и туники</a></li>
+
+                                    <li class="menu__sub2-link"><a href="#">Юбки</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Топы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Джинсы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Белье</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Пиджаки и костюмы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Пляжная одежда</a></li>
+
+                                    <li class="menu__sub2-link"><a href="#">Шорты</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Рубашки</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Комбинезоны</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Большие размеры</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Майки</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Бриджи и капри</a></li>
+
+                                    <li class="menu__sub2-link"><a href="#">Спортивные костюмы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Пиджаки и костюмы</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Жилеты</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Толстовки и свитшоты</a></li>
+                                    <li class="menu__sub2-link"><a href="#">Футболки и поло</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Обувь</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Аксессуары</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Спорт</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Бренды</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Красота</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                            <li class="menu__sub-link">
+                                <a href="#">Распродажа</a>
+                                <span class="menu__arrow arrow right"></span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu__search">
+                <button type="reset" class="menu__search-icon search-icon">
+                    <svg id="search-icon"  viewBox="0 0 24 24">
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                        <path fill="none" d="M0 0h24v24H0z">
+                    </svg>
+                </button>
+                <input type="text" placeholder="Например: Платье Gucci" class="menu__input" />
+            </div>
+        </div>
+    </div>
+</header>
+        <main class="page container">
+            <div class="page__wrapper">
+                <aside class="category">
+                    <h3 class="category__title title">Категория</h3>
+                    <ul class="category__list">
+                        <li><a class="category__link" href="#">Платья и сарафаны</a></li>
+                        <li><a class="category__link" href="#">Брюки</a></li>
+                        <li><a class="category__link" href="#">Джемперы и кардиганы</a></li>
+                        <li><a class="category__link" href="#">Верхняя одежда</a></li>
+                        <li><a class="category__link" href="#">Футболки и поло</a></li>
+                        <li><a class="category__link" href="#">Большие размеры</a></li>
+                        <li><a class="category__link" href="#">Топы</a></li>
+                        <li><a class="category__link" href="#">Юбки</a></li>
+                        <li><a class="category__link" href="#">Блузы и туники</a></li>
+                        <li><a class="category__link" href="#">Джинсы</a></li>
+                        <li><a class="category__link" href="#">Белье</a></li>
+                        <li><a class="category__link" href="#">Пиджаки и костюмы</a></li>
+                        <li><a class="category__link" href="#">Толстовки и свитшоты</a></li>
+                        <li><a class="category__link" href="#">Олимпийки</a></li>
+                        <li><a class="category__link" href="#">Пляжная одежда</a></li>
+                        <li><a class="category__link" href="#">Шорты</a></li>
+                        <li><a class="category__link" href="#">Комбинезоны</a></li>
+                        <li><a class="category__link" href="#">Одежда для дома и сна</a></li>
+                        <li><a class="category__link" href="#">Рубашки</a></li>
+                        <li><a class="category__link" href="#">Бриджи и капри </a></li>
+                        <li><a class="category__link" href="#">Майки</a></li>
+                        <li><a class="category__link" href="#">Жилеты</a></li>
+                        <li><a class="category__link" href="#">Спортивные костюмы</a></li>
+                        <li><a class="category__link" href="#">Комплекты одежды</a></li>
+                        <li><a class="category__link" href="#">Обувь</a></li>
+                        <li><a class="category__link" href="#">Аксессуары</a></li>
+                    </ul>
+                </aside>
+                <section class="cataloge">
+                    <div class="cataloge__title-wrapper">
+                        <h2 class="cataloge__title title">Женские толстовки и свитшоты</h2>
+                        <span class="cataloge__count">254 678</span>
+                        <select class="cataloge__select" name="" id="">
+                            <option value="">По популярности</option>
+                            <option value="">По дате</option>
+                        </select>
+                    </div>
+                    <div class="cataloge__tiles">
+                        <a class="cataloge__tile" href="#">Худи</a>
+                        <a class="cataloge__tile" href="#">Свитшоты</a>
+                        <a class="cataloge__tile" href="#">Оверсайз</a>
+                        <a class="cataloge__tile" href="#">С капюшоном</a>
+                        <a class="cataloge__tile" href="#">Удлиненные</a>
+                        <a class="cataloge__tile" href="#">Свободного кроя</a>
+                        <a class="cataloge__tile" href="#">Со стразами</a>
+                        <a class="cataloge__tile" href="#">Из неопрена</a>
+                        <a class="cataloge__show-more" href="#">показать все</a>
+                    </div>
+                    <div class="cataloge__filters">
+                        <svg display="none">
+                            <symbol viewBox="0 0 18 18" id="filter">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M17 2H15.8293C15.4175 0.83481 14.3062 0 13 0C11.6938 0 10.5825 0.83481 10.1707 2H1C0.44772 2 0 2.44772 0 3C0 3.55228 0.44772 4 1 4H10.1707C10.5825 5.16519 11.6938 6 13 6C14.3062 6 15.4175 5.16519 15.8293 4H17C17.5523 4 18 3.55228 18 3C18 2.44772 17.5523 2 17 2ZM13 4C13.5523 4 14 3.55228 14 3C14 2.44772 13.5523 2 13 2C12.4477 2 12 2.44772 12 3C12 3.55228 12.4477 4 13 4ZM0 9C0 8.4477 0.44772 8 1 8H2.17071C2.58254 6.83481 3.69378 6 5 6C6.30622 6 7.4175 6.83481 7.8293 8H17C17.5523 8 18 8.4477 18 9C18 9.5523 17.5523 10 17 10H7.8293C7.4175 11.1652 6.30622 12 5 12C3.69378 12 2.58254 11.1652 2.17071 10H1C0.44772 10 0 9.5523 0 9ZM5 10C5.55229 10 6 9.5523 6 9C6 8.4477 5.55229 8 5 8C4.44772 8 4 8.4477 4 9C4 9.5523 4.44772 10 5 10ZM1 14C0.44772 14 0 14.4477 0 15C0 15.5523 0.44772 16 1 16H10.1707C10.5825 17.1652 11.6938 18 13 18C14.3062 18 15.4175 17.1652 15.8293 16H17C17.5523 16 18 15.5523 18 15C18 14.4477 17.5523 14 17 14H15.8293C15.4175 12.8348 14.3062 12 13 12C11.6938 12 10.5825 12.8348 10.1707 14H1ZM14 15C14 15.5523 13.5523 16 13 16C12.4477 16 12 15.5523 12 15C12 14.4477 12.4477 14 13 14C13.5523 14 14 14.4477 14 15Z" fill="#E5E5E5"/>
+                            </symbol>
+                        </svg>
+                        <a href="#">
+                            <svg class="cataloge__filter-icon">
+                                <use xlink:href="#filter"></use>
+                            </svg>
+                        </a>
+                        <ul class="cataloge__filters-list">
+                            <li>
+                                <button class="cataloge__filter" href="#">
+                                    Цвет
+                                    <span class="menu__arrow arrow down"></span>
+                                </button>
+
+                                <div class="cataloge__colors">
+                                    <a href="#">выбрать все</a>
+                                    <div class="cataloge__colors-wrapper">
+                                        <div class="cataloge__color">
+                                            <input type="radio" id="red" />
+                                            <label for="red">красный</label>
+                                            <span class="cataloge__colors-count">4 566</span>
+                                        </div>
+                                        <div class="cataloge__color">
+                                            <input type="radio" name="blue" id="blue">синий</input>
+                                            <span class="cataloge__colors-count">15 678</span>
+                                        </div>
+                                        <div class="cataloge__color">
+                                            <input type="radio" name="green" id="green">зеленый</input>
+                                            <span class="cataloge__colors-count">35 678</span>
+                                        </div>
+                                        <div class="cataloge__color">
+                                            <input type="radio" name="yellow" id="yellow">желтый</input>
+                                            <span class="cataloge__colors-count">75 678</span>
+                                        </div>
+                                        <div class="cataloge__color">
+                                            <input type="radio" name="black" id="black">черный</input>
+                                            <span class="cataloge__colors-count">95 678</span>
+                                        </div>
+                                        <div class="cataloge__color">
+                                            <input type="radio" name="orange" id="orange">оранжевый</input>
+                                            <span class="cataloge__colors-count">115 678</span>
+                                        </div>
+                                        <div class="cataloge__color">
+                                            <input type="radio" name="gray" id="gray">серый</input>
+                                            <span class="cataloge__colors-count">245 678</span>
+                                        </div>
+                                        <div class="cataloge__color">
+                                            <input type="radio" name="blue" id="blue">синий</input>
+                                            <span class="cataloge__colors-count">15 678</span>
+                                        </div>
+                                        <div class="cataloge__color">
+                                            <input type="radio" name="red" id="red">красный</input>
+                                            <span class="cataloge__colors-count">4 566</span>
+                                        </div><div class="cataloge__color">
+                                            <input type="radio" name="red" id="red">красный</input>
+                                            <span class="cataloge__colors-count">4 566</span>
+                                        </div><div class="cataloge__color">
+                                            <input type="radio" name="red" id="red">красный</input>
+                                            <span class="cataloge__colors-count">4 566</span>
+                                        </div><div class="cataloge__color">
+                                            <input type="radio" name="red" id="red">красный</input>
+                                            <span class="cataloge__colors-count">4 566</span>
+                                        </div><div class="cataloge__color">
+                                            <input type="radio" name="red" id="red">красный</input>
+                                            <span class="cataloge__colors-count">4 566</span>
+                                        </div><div class="cataloge__color">
+                                            <input type="radio" name="red" id="red">красный</input>
+                                            <span class="cataloge__colors-count">4 566</span>
+                                        </div><div class="cataloge__color">
+                                            <input type="radio" name="red" id="red">красный</input>
+                                            <span class="cataloge__colors-count">4 566</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <button class="cataloge__filter" href="#">
+                                    Размер
+                                    <span class="menu__arrow arrow down"></span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="cataloge__filter" href="#">
+                                    Бренд
+                                    <span class="menu__arrow arrow down"></span>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="cataloge__filter" href="#">
+                                    Цена
+                                    <span class="menu__arrow arrow down"></span>
+                                </button>
+                            </li>
+                        </ul>
+                        <a class="cataloge__goods-for-sale" href="#">Товары со скидкой</a>
+                    </div>
+                    <div class="cataloge__items">
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_548.webp" type="image/webp"><img src="img/Rectangle_548.jpg" alt="Кожаная куртка" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Кожаная куртка</p>
+                            </a>
+                            <span class="cataloge__sale">-43%</span>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">9 890 ₽</p>
+                                <p class="cataloge__price-for-sale">4 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_550.webp" type="image/webp"><img src="img/Rectangle_550.jpg" alt="Трикотажная водолазка" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Трикотажная водолазка</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">1 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_551.webp" type="image/webp"><img src="img/Rectangle_551.jpg" alt="Пальто оверсайз из полушерсти" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Пальто оверсайз из полушерсти</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">3 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_648.webp" type="image/webp"><img src="img/Rectangle_648.jpg" alt="Джинсовое платье" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Джинсовое платье</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">4 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_548.webp" type="image/webp"><img src="img/Rectangle_548.jpg" alt="Кожаная куртка" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Кожаная куртка</p>
+                            </a>
+                            <span class="cataloge__sale">-43%</span>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">9 890 ₽</p>
+                                <p class="cataloge__price-for-sale">4 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_550.webp" type="image/webp"><img src="img/Rectangle_550.jpg" alt="Трикотажная водолазка" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Трикотажная водолазка</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">1 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_551.webp" type="image/webp"><img src="img/Rectangle_551.jpg" alt="Пальто оверсайз из полушерсти" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Пальто оверсайз из полушерсти</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">3 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_648.webp" type="image/webp"><img src="img/Rectangle_648.jpg" alt="Джинсовое платье" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Джинсовое платье</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">4 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_548.webp" type="image/webp"><img src="img/Rectangle_548.jpg" alt="Кожаная куртка" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Кожаная куртка</p>
+                            </a>
+                            <span class="cataloge__sale">-43%</span>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">9 890 ₽</p>
+                                <p class="cataloge__price-for-sale">4 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_550.webp" type="image/webp"><img src="img/Rectangle_550.jpg" alt="Трикотажная водолазка" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Трикотажная водолазка</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">1 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_551.webp" type="image/webp"><img src="img/Rectangle_551.jpg" alt="Пальто оверсайз из полушерсти" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Пальто оверсайз из полушерсти</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">3 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_648.webp" type="image/webp"><img src="img/Rectangle_648.jpg" alt="Джинсовое платье" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Джинсовое платье</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">4 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_548.webp" type="image/webp"><img src="img/Rectangle_548.jpg" alt="Кожаная куртка" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Кожаная куртка</p>
+                            </a>
+                            <span class="cataloge__sale">-43%</span>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">9 890 ₽</p>
+                                <p class="cataloge__price-for-sale">4 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_550.webp" type="image/webp"><img src="img/Rectangle_550.jpg" alt="Трикотажная водолазка" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Трикотажная водолазка</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">1 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_551.webp" type="image/webp"><img src="img/Rectangle_551.jpg" alt="Пальто оверсайз из полушерсти" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Пальто оверсайз из полушерсти</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">3 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_648.webp" type="image/webp"><img src="img/Rectangle_648.jpg" alt="Джинсовое платье" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Джинсовое платье</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">4 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_548.webp" type="image/webp"><img src="img/Rectangle_548.jpg" alt="Кожаная куртка" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Кожаная куртка</p>
+                            </a>
+                            <span class="cataloge__sale">-43%</span>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">9 890 ₽</p>
+                                <p class="cataloge__price-for-sale">4 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_550.webp" type="image/webp"><img src="img/Rectangle_550.jpg" alt="Трикотажная водолазка" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Трикотажная водолазка</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">1 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_551.webp" type="image/webp"><img src="img/Rectangle_551.jpg" alt="Пальто оверсайз из полушерсти" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Пальто оверсайз из полушерсти</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">3 890 ₽</p>
+                            </div>
+                        </div>
+                        <div class="cataloge__item">
+                            <a href="#">
+                                <picture><source srcset="img/Rectangle_648.webp" type="image/webp"><img src="img/Rectangle_648.jpg" alt="Джинсовое платье" width="224" height="340"></picture>
+                                <p class="cataloge__item-title item-title">Джинсовое платье</p>
+                            </a>
+                            <div class="cataloge__prices">
+                                <p class="cataloge__price">4 890 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cataloge__pagintaion pagination">
+                        <ul class="pagination__list">
+                            <li><a class="pagination__down" href="#"><i class="arrow left"></i><span>Назад</span></a></li>
+                            <li><a class="pagination__link active" href="#">1</a></li>
+                            <li><a class="pagination__link" href="#">2</a></li>
+                            <li><a class="more" href="#">...</a></li>
+                            <li><a class="pagination__link" href="#">3</a></li>
+                            <li><a class="pagination__link" href="#">4</a></li>
+                            <li><a class="pagination__link" href="#">5</a></li>
+                            <li><a class="pagination__link" href="#">6</a></li>
+                            <li><a class="pagination__link" href="#">7</a></li>
+                            <li><a class="pagination__link" href="#">8</a></li>
+                            <li><a class="pagination__link" href="#">9</a></li>
+                            <li><a class="pagination__link" href="#">10</a></li>
+                            <li><a class="pagination__up" href="#"><span>Вперед</span><i class="arrow right"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="cataloge__info">
+                        <p>Как только на улице становится прохладно, на смену футболкам и рубашкам приходят уютные джемперы и кардиганы.
+                             Впрочем, последние могут прийти не на смену, а в дополнение к легкой одежде.
+                              Пожалуй, главным преимуществом кардиганов является возможность создавать с их помощью модные многослойные образы,
+                               а при необходимости, если станет жарко, например, в помещении, их можно снять.
+                        </p>
+
+                        <p>
+                            Джемпером называют любую вязаную одежду плечевой группы с длинным рукавом.
+                             В отличие от кардигана, джемпер не распашной, то есть надевается через голову. 
+                             Воротник или вырез у джемпера может иметь разную форму. Джемпер с высоким горлом называется свитер. 
+                        </p>
+
+                        <p>
+                            Классика и фэшн
+                        </p>
+
+                        <p>
+                            В гардеробе каждой женщины есть однотонные джемперы и кардиганы простого кроя, которые можно отнести к категории must have.
+                             Их легко комбинировать с другой одеждой, к тому же они не выходят из моды.
+                              Однако настоящие модницы следят за трендами и предпочитают иметь и ультрамодные джемперы. 
+                              В этом сезоне стоит обратить внимание на объемные свитера в стиле oversize, просторные кардиганы-накидки. 
+                            В моде удлиненные модели и длинные рукава. В отношении цветовой гаммы прослеживается 
+                             тенденция к моде на однотонные джемперы спокойных оттенков. 
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__wrapper">
+            <a href="#" class="footer__logo"><picture><source srcset="img/alt-logo.webp" type="image/webp"><img src="img/alt-logo.png" alt="logo" width="44" ></picture></a>
+            
+            <div class="footer__contacts">
+                <a href="#">О нас</a>
+                <a href="#">Обратная связь</a>
+            </div>
+        </div>
+        <div class="footer__rights">
+            <p>© 2021 - Все права защищны</p>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.min.js"></script>
+</body>
+</html>
